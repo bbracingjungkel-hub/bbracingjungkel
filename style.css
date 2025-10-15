@@ -1,0 +1,66 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #ffe0f0, #fff8f8);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card {
+  background-color: white;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #ff5da2;
+  font-size: 32px;
+}
+
+.cake-emoji {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.details {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.rsvp-buttons {
+  margin: 30px 0 10px;
+}
+
+.rsvp-buttons button {
+  background-color: #ff5da2;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin: 8px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rsvp-buttons button:hover {
+  background-color: #ff82b4;
+}
+
+.response-message {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 40px;
+  font-style: italic;
+  color: #888;
+}
